@@ -1,0 +1,12 @@
+#
+import csv
+
+#Create new csv
+with open ('stdout.csv', 'w') as csvfile:
+    fieldnames =['PRIMARY_KEY', 'OBJECT', 'CERTAINTY'] #set csv field names
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'PRIMARY_KEY': 'some_data1', 'OBJECT': 'some_data2', 'CERTAINTY': 'some_data3'})
+    writer.writerow({'PRIMARY_KEY': 'some_data1', 'OBJECT': 'some_data2', 'CERTAINTY': 'some_data3'})
+    writer.writerow({'PRIMARY_KEY': 'some_data1', 'OBJECT': 'some_data2', 'CERTAINTY': 'some_data3'})
