@@ -1,5 +1,9 @@
 #
+import os
 import csv
+
+#Initial pseudocode to read the img dir
+#for f in os.listdir(os.path.dirname(__file__)):
 
 #Create new csv
 with open ('stdout.csv', 'w') as csvfile:
