@@ -1,2 +1,2 @@
 # kickstart
-#Gender & object identificiation via darknet
+#Gender & object identificiation via darknet yolov3
